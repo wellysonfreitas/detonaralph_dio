@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/wall.png);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90px;
+    width: 100%;
+    background-color: #0f0f0f;
+    color: #ececec;
+    border-bottom: 5px solid #ffd700;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-time h2:nth-child(2), .menu-score h2:nth-child(2) {
+    margin-top: 10px;
+}
+
+.panel {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000;
+    background-color: #e2d3c0;
+}
+
+.enemy {
+    background-image: url(../images/ralph.png);
+    background-size: cover;
+}
+
+.second {
+    margin-top: 10px;
+}
